@@ -1,0 +1,11 @@
+/* Global Styles */
+:root {
+    --primary: #2b7a78;
+    --secondary: #3aafa9;
+    --light: #feffff;
+    --dark: #17252a;
+    --accent: #def2f1;
+}
+
+/* Header, footer, button styles from previous example */
+/* Add responsive grid and form styles */
