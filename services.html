@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Services | HealthPlus</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .service-category {
+            margin: 2rem 0;
+            border-bottom: 1px solid #def2f1;
+            padding-bottom: 2rem;
+        }
+        
+        .service-card {
+            display: flex;
+            gap: 2rem;
+            margin: 1.5rem 0;
+            align-items: center;
+        }
+        
+        @media (max-width: 768px) {
+            .service-card {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Same header as index.html -->
+    
+    <main class="container">
+        <h1>Our Medical Services</h1>
+        
+        <div class="service-category">
+            <h2>Primary Care</h2>
+            <div class="service-card">
+                <img src="icons/checkup-icon.png" alt="Checkup" width="80">
+                <div>
+                    <h3>Annual Physicals</h3>
+                    <p>Comprehensive 60-minute exams including...</p>
+                    <ul>
+                        <li>Blood pressure screening</li>
+                        <li>Cholesterol check</li>
+                        <li>Personalized health plan</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Add more services -->
+        </div>
+    </main>
+    
+    <!-- Same footer as index.html -->
+</body>
+</html>
